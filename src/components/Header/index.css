@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    background-color: orangered;
+}
+
+.logo-container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+
+.cartPicture {
+    width: 50px;
+    height: 50px;
+}
