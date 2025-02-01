@@ -10,10 +10,11 @@ function Header() {
         <h2>LOGO</h2>
 
         <div className="data">
-            <NavLink to='/'>Todo List</NavLink>
-            <NavLink to='/userData'>User Data</NavLink>
-            <NavLink to='/onlineShopping'>Online Shopping</NavLink>
-            <NavLink to='/cart'>
+            <NavLink className="link" to='/'>Todo List</NavLink>
+            <NavLink className="link" to='/userData'>User Data</NavLink>
+            <NavLink className="link" to='/onlineShopping'>Online Shopping</NavLink>
+            <NavLink className="link-cart" to='/cart'>
+                <span>Cart</span>
                 <img className='cartPicture' src={CartPicture} alt="" />
             </NavLink>
         </div>
