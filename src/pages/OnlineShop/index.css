@@ -1,0 +1,59 @@
+.container-shop {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .card {
+        width: 30%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid rgb(63, 63, 202);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+        img {
+            width: 350px;
+            height: 280px;
+            background: none;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+        .btn {
+            margin-top: 5px;
+            width: 150px;
+            height: 30px;
+            border-radius: 7px;
+            border: none;
+            background-color: blue;
+            color: #fff;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: blue;
+            border: 2px solid blue;
+            font-weight: 700;
+        }
+    }
+}
